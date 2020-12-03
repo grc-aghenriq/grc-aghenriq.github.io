@@ -75,7 +75,9 @@ html, body {
 	text-align: center;
 }
 
-   
+/* -------This is the logo align and margin!----------- */
+
+
 #logo {
     margin-bottom: 16px;
 	text-align: center;
@@ -88,6 +90,7 @@ h1 {
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
+    background-color: rgba(25, 0, 0, .4);
 }
 
 h2 {
@@ -108,10 +111,13 @@ p {
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
+    background-color: rgba(25, 0, 0, .4);  
+    margin: 9px
+    
 }
     
 nav{
-    font-family: Gevena;
+    font-family: Optima;
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
@@ -121,7 +127,7 @@ nav{
 }   
 
 nav li{
-    display: inline;   
+    display: inline;
     }
 
 nav a {
@@ -133,12 +139,12 @@ a{
    color:#fff;
     text-decoration: none;
     font-weight: bold;
-    text
+  
 }
 
 a:hover{
     color:black;
-    background:green;
+    background-color: rgba(255, 255, 255, .4); 
     
 }
 
